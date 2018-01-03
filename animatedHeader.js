@@ -8,7 +8,7 @@
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = $("body").height();
         target = {x: 0, y: height};
 
         largeHeader = document.getElementById('animatedBody');
